@@ -4,7 +4,7 @@
 }
 
 .conatiner {
-    /* background-color: var(--black-color); */
+    background-color: var(--black-color);
 }
 
 nav {
@@ -32,14 +32,7 @@ nav {
             padding: .5rem 0;
 
 
-            &:hover {
-                &:nth-child(2) {
-                    ul {
-                        opacity: 1;
-                    }
-                }
 
-            }
 
             a {
                 color: var(--white-color);
@@ -56,6 +49,7 @@ nav {
                 gap: .3rem;
                 cursor: pointer;
                 position: relative;
+                z-index: 999;
 
                 i {
                     transition: 400ms all;
@@ -65,12 +59,13 @@ nav {
                 &:hover {
                     i {
                         rotate: 180deg;
+                        display: block;
                     }
                 }
 
                 ul {
                     position: absolute;
-                    display: flex;
+                    display: none;
                     flex-direction: column;
                     top: 2.5rem;
                     background-color: var(--black-color);
@@ -80,7 +75,6 @@ nav {
                     left: 0;
                     gap: unset;
                     overflow: hidden;
-                    opacity: 0;
                     transition: 300ms all;
 
                     li {
@@ -97,6 +91,15 @@ nav {
                                 background-color: #2d364d;
                             }
                         }
+                    }
+                }
+
+            }
+
+            &:hover {
+                &:nth-child(2) {
+                    ul {
+                        display: flex;
                     }
                 }
             }
@@ -175,6 +178,7 @@ nav {
             li {
                 list-style: none;
                 padding: .5rem 0;
+                text-wrap: nowrap;
 
 
                 &:hover {
@@ -241,7 +245,7 @@ nav {
 
 /* hero section */
 
-.heroradient1{
+.heroradient1 {
     width: 400px;
     height: 400px;
     background-color: #30426f;
@@ -251,7 +255,8 @@ nav {
     top: 0;
     left: -10rem;
 }
-.heroradient2{
+
+.heroradient2 {
     width: 400px;
     height: 400px;
     background-color: #30426f;
@@ -260,6 +265,22 @@ nav {
     position: absolute;
     bottom: 0;
     right: -10rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .heroradient1 {
+        width: 250px;
+        height: 250px;
+        top: 0;
+        left: 0rem;
+    }
+
+    .heroradient2 {
+        width: 250px;
+        height: 250px;
+        bottom: 0;
+        right: 0rem;
+    }
 }
 
 .heroSection {
@@ -271,6 +292,7 @@ nav {
     color: var(--white-color);
     min-height: calc(100vh - 113px);
     flex-direction: column;
+    padding: 1rem;
 
     .starRoatate {
         display: flex;
@@ -291,22 +313,26 @@ nav {
 
 
     h1 {
-        font-size: 3rem;
+        font-size: clamp(1.5rem, -0.875rem + 8.333vw, 3.3rem);
         font-weight: 600;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         line-height: 1.3;
+        max-width: 60rem;
+        width: 100%;
     }
 
     h2 {
+        font-size: clamp(1.2rem, -0.875rem + 8.333vw, 2rem);
         padding-top: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        font-size: 2rem;
+        max-width: 65rem;
+        width: 100%;
         font-weight: 500;
         color: #ffffff91;
     }
@@ -317,6 +343,7 @@ nav {
         align-items: center;
         gap: 1rem;
         margin-top: 1rem;
+
         button {
             padding: 1rem 2.5rem;
             background-color: transparent;
@@ -326,21 +353,34 @@ nav {
             font-size: 16px;
             cursor: pointer;
             transition: 300ms all;
-            &:hover{
+
+            &:hover {
                 background-color: white;
                 color: var(--black-color);
             }
         }
-        a{
-            padding: 1rem ;
+
+        a {
+            padding: 1rem;
             background-color: transparent;
             color: var(--white-color);
             font-size: 17px;
             cursor: pointer;
             transition: 300ms all;
             border: none;
-            &:hover{
+
+            &:hover {
                 text-decoration: underline;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            button {
+                padding: .8rem 1rem;
+            }
+
+            a {
+                padding: .8rem 1rem;
             }
         }
     }
@@ -353,5 +393,140 @@ nav {
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+/* loges */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.loges {
+    background: #514d4a;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    .swipermySwiper {
+        max-width: 70rem;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.whatWeDo {
+    background-color: var(--black-color);
+
+    .main {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 75rem;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 0;
+
+        .first {
+            padding: 1.5rem;
+            max-width: 50%;
+            width: 100%;
+            color: var(--white-color);
+
+            h1 {
+                font-size: clamp(2rem, -0.875rem + 8.333vw, 2.5rem);
+                font-weight: 600;
+            }
+
+            h2 {
+                font-weight: 500;
+                padding: .5rem 0 1.5rem 0;
+                font-size: 18px;
+                color: #f7f7f7dd;
+                word-spacing: .5px;
+            }
+
+            @media only screen and (max-width: 800px) {
+                h2 {
+                    padding: .5rem 0 1rem 0;
+                }
+            }
+
+            p {
+                color: #f7f7f7a3;
+            }
+        }
+
+        .second {
+            padding: 1rem;
+            max-width: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+
+            img {
+                max-width: 30rem;
+                width: 100%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .main {
+            flex-direction: column-reverse;
+
+            .first,
+            .second {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.reparing {
+    max-width: 80rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    padding: 1.2rem;
+
+    .card {
+        max-width: 360px;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            color: white;
+            font-size: clamp(2rem, -0.875rem + 8.333vw, 2rem);
+            font-weight: 600;
+            padding: 1rem 0;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.705);
+        }
     }
 }
