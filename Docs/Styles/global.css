@@ -9,9 +9,14 @@
   scroll-behavior: smooth;
 }
 
+body{
+  overflow-x: hidden;
+}
 
-
-img, button, iframe, a {
+img,
+button,
+iframe,
+a {
   user-select: none;
 }
 
@@ -24,6 +29,7 @@ img, button, iframe, a {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -46,6 +52,7 @@ img, button, iframe, a {
   background-color: #ffffff;
   transition: 200ms all;
 }
+
 .navUnderLine:hover::before {
   width: 100%;
 }
@@ -58,6 +65,7 @@ img, button, iframe, a {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -71,6 +79,7 @@ img, button, iframe, a {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
