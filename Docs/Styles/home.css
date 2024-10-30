@@ -1,10 +1,11 @@
 :root {
-    --black-color: #060b1a;
+    --black-color: #000000;
     --white-color: #f7f7f7;
 }
 
 .conatiner {
     background-color: var(--black-color);
+    width: 100%;
 }
 
 nav {
@@ -246,9 +247,10 @@ nav {
 /* hero section */
 
 .heroradient1 {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 400px;
-    background-color: #30426f;
+    background-color: #000000;
     border-radius: 100%;
     filter: blur(10rem);
     position: absolute;
@@ -257,9 +259,10 @@ nav {
 }
 
 .heroradient2 {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 400px;
-    background-color: #30426f;
+    background-color: #000000;
     border-radius: 100%;
     filter: blur(10rem);
     position: absolute;
@@ -422,26 +425,58 @@ nav {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem 1rem;
 
     .swipermySwiper {
         max-width: 70rem;
         width: 100%;
         margin: auto;
     }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 5rem;
+        object-fit: cover;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .swiper-slide img {
+            width: 80%;
+            margin: auto;
+            height: 5rem;
+        }
+    }
 }
 
 .whatWeDo {
     background-color: var(--black-color);
+    position: relative;
+
+    .bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        opacity: 20%;
+        left: 0;
+    }
+
+
 
     .main {
-
+        z-index: 99;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         max-width: 75rem;
         width: 100%;
         margin: auto;
-        padding: 4rem 0;
+        padding: 4rem 0 3rem 0;
+        @media only screen and (max-width: 800px) {
+            padding: 4rem 0 0rem 0;
+        }
 
         .first {
             padding: 1.5rem;
@@ -506,7 +541,7 @@ nav {
     margin: auto;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
     padding: 1.2rem;
 
@@ -520,7 +555,7 @@ nav {
 
         h2 {
             color: white;
-            font-size: clamp(2rem, -0.875rem + 8.333vw, 2rem);
+            font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
             font-weight: 600;
             padding: 1rem 0;
         }
@@ -529,4 +564,209 @@ nav {
             color: rgba(255, 255, 255, 0.705);
         }
     }
+}
+
+.WhyChooseUS {
+    max-width: 80rem;
+    width: 100%;
+    margin: auto;
+    padding: 7rem 1.2rem 0rem 1.2rem;
+
+    @media only screen and (max-width: 800px) {
+        padding: 3rem 1.2rem 0rem 1.2rem;
+    }
+
+    h2 {
+        color: var(--white-color);
+        text-align: center;
+        font-size: clamp(1.7rem, -0.875rem + 8.333vw, 3rem);
+        font-weight: 600;
+        padding-bottom: 3rem;
+    }
+
+    .card {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            color: white;
+            font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
+            font-weight: 600;
+            padding: 1rem 0;
+            text-align: unset;
+
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.705);
+        }
+    }
+}
+
+/* testimonials */
+
+.testimonials {
+    max-width: 80rem;
+    width: 100%;
+    margin: auto;
+    padding: 7rem 1.2rem 4rem 1.2rem;
+
+    h2 {
+        color: var(--white-color);
+        text-align: center;
+        font-size: clamp(1.7rem, -0.875rem + 8.333vw, 3rem);
+        font-weight: 600;
+        padding-bottom: 3rem;
+    }
+
+    .card {
+        color: white;
+        text-align: center;
+        background-color: #514d4a;
+        padding: 1rem;
+        border-radius: .5rem;
+        transition: 300ms all;
+
+        img {
+            border-radius: 100%;
+            max-width: 6rem;
+            width: 100%;
+            margin: auto;
+        }
+
+        h2 {
+            font-weight: 500;
+            font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
+            padding-bottom: 0rem;
+        }
+
+        h3 {
+            color: #9873e7;
+            padding-bottom: .5rem;
+        }
+
+        p {
+            color: #ffffff91;
+        }
+    }
+}
+
+/* footer */
+
+
+.main-footer {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #171022;
+}
+
+.main-footer ul {
+    list-style: none;
+}
+
+.main-footer h1 {
+    font-size: 22px;
+    line-height: 117%;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.main-footer h2 {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.main-footer ul li a {
+    color: #ffffffcc;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #171022;
+    border-top: 1px solid #ffffff8f;
+    font-size: 17px;
+    padding: 15px 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logoinfo p {
+    color: #ffffff8f;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contact-details li a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.contact-details .fa {
+    color: #f1f1f1;
+    margin-right: 10px;
+}
+
+.sociallogos {
+    padding: 20px 0;
+}
+
+.sociallogos .logobox a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.com ul {
+    padding-top: .5rem;
+}
+
+.com ul li {
+    padding: 5px 0;
+}
+
+@media only screen and (max-width: 749px) {
+    .main-footer {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .sociallogos {
+        padding: 20px 0;
+    }
+
+    .com {
+        padding: 20px 0;
+    }
+
 }
