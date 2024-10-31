@@ -12,7 +12,7 @@
 }
 
 .form {
-    padding: 1.2rem;
+    padding: 5rem 1.2rem;
 
     form {
         border: 2px solid rgba(255, 255, 255, 0.686);
@@ -124,6 +124,45 @@
     @media only screen and (max-width: 800px) {
         form {
             padding: 2rem 1rem;
+        }
+    }
+}
+
+.OurIT {
+    z-index: 10;
+    position: relative;
+    color: white;
+    max-width: 75rem;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3rem;
+
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
+        
+    }
+    h3{
+        margin-top: 2rem;
+        font-weight: 500;
+        font-size: clamp(1rem, -0.875rem + 8.333vw, 1.2rem);
+    }
+    p{
+        padding-top: .5rem;
+        color: #ffffffa3;
+    }
+    ul{
+        padding-top: .5rem;
+        list-style: disc;
+        padding-left: 1.5rem;
+        margin-bottom: 3rem;
+        li{
+            color: #ffffffa3;
+        }
+        b{
+            color: white;
         }
     }
 }
