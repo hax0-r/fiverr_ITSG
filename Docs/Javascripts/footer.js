@@ -11,11 +11,11 @@ footerSection.innerHTML = `
                 <ul>
                     <li>
                         <div class="fa fa-phone"></div>
-                        <a href="tel:+7967969">+92 31526662632</a>
+                        <a href="tel:+7967969">+92 00000000000</a>
                     </li>
                     <li>
                         <div class="fa fa-envelope"></div>
-                        <a href="mailto:talha@gmail.com">talha@gmail.com</a>
+                        <a href="mailto:talha@gmail.com">yourMail@gmail.com</a>
                     </li>
                 </ul>
             </div>
