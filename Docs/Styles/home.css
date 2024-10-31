@@ -476,6 +476,7 @@ nav {
         width: 100%;
         margin: auto;
         padding: 4rem 0 3rem 0;
+
         @media only screen and (max-width: 800px) {
             padding: 4rem 0 0rem 0;
         }
@@ -550,6 +551,16 @@ nav {
     .card {
         max-width: 360px;
         width: 100%;
+        padding: 1rem;
+        transition: 300ms all;
+        border: 2px solid black;
+        border-radius: .5rem;
+
+        &:hover {
+            border: 2px solid white;
+            transform: translateY(-1rem);
+
+        }
 
         img {
             width: 100%;
@@ -619,35 +630,50 @@ nav {
     h2 {
         color: var(--white-color);
         text-align: center;
-        font-size: clamp(1.7rem, -0.875rem + 8.333vw, 3rem);
+        font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
         font-weight: 600;
         padding-bottom: 3rem;
     }
 
     .card {
         color: white;
-        text-align: center;
         background-color: #514d4a;
         padding: 1rem;
         border-radius: .5rem;
         transition: 300ms all;
 
-        img {
-            border-radius: 100%;
-            width: 6rem;
-            height: 6rem;
-            margin: auto;
+        .imgData {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-bottom: 2rem;
+            gap: 2rem;
+
+            img {
+                border-radius: 100%;
+                width: 6rem;
+                height: 6rem;
+            }
+
+            h2 {
+                font-weight: 500;
+                font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
+                padding-bottom: 0rem;
+            }
+
+            h3 {
+                color: #9873e7;
+                padding-bottom: .5rem;
+            }
         }
 
-        h2 {
-            font-weight: 500;
-            font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
-            padding-bottom: 0rem;
-        }
-
-        h3 {
-            color: #9873e7;
-            padding-bottom: .5rem;
+        @media only screen and (max-width: 800px) {
+            .imgData{
+                flex-direction: column;
+                text-align: center;
+                padding-bottom: 1rem;
+                gap: 1rem;
+            }
         }
 
         p {
@@ -655,6 +681,13 @@ nav {
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .testimonials{
+    padding: 2.5rem 1.2rem 4rem 1.2rem;
+    }
+}
+
 
 /* footer */
 
