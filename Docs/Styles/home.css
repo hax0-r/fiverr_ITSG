@@ -20,6 +20,7 @@ nav {
 
     img {
         max-width: 6rem;
+        border-radius: 100%;
         width: 100%;
     }
 

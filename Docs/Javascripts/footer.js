@@ -1,7 +1,6 @@
-// Select the footer section by its ID
 const footerSection = document.getElementById('footer');
+const currentYear = new Date().getFullYear();
 
-// Set innerHTML dynamically
 footerSection.innerHTML = `
     <div class="main-footer">
         <div class="logoinfo" data-aos="fade-up">
@@ -41,5 +40,5 @@ footerSection.innerHTML = `
             </div>
         </div>
     </div>
-    <footer>© Copyright @ITSG 2024</footer>
+    <footer>© Copyright @ITSG ${currentYear}</footer>
 `;
