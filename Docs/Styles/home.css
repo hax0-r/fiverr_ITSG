@@ -633,8 +633,8 @@ nav {
 
         img {
             border-radius: 100%;
-            max-width: 6rem;
-            width: 100%;
+            width: 6rem;
+            height: 6rem;
             margin: auto;
         }
 
