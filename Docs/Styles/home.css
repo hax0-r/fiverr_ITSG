@@ -526,6 +526,22 @@ nav {
                 word-spacing: .5px;
             }
 
+            button {
+                background-color: #093055;
+                position: relative;
+                padding: 1rem 3rem;
+                border-radius: 25rem;
+                color: white;
+                margin: auto;
+                margin-top: 1rem;
+                transition: 300ms all;
+                border: 2px solid #093055;
+
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+
             @media only screen and (max-width: 800px) {
                 h2 {
                     padding: .5rem 0 1rem 0;
@@ -814,7 +830,7 @@ nav {
     }
 
     @media only screen and (max-width: 700px) {
-        .slider{
+        .slider {
             flex-direction: column;
         }
     }
@@ -870,7 +886,7 @@ nav {
     }
 
     @media only screen and (max-width: 700px) {
-        .card{
+        .card {
             padding-top: unset;
         }
     }
