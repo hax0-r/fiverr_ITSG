@@ -814,7 +814,7 @@ nav {
 
     .card {
         color: white;
-        background: linear-gradient(152.2deg, #2867a2 -27.618%, #093055 78.015%);
+        background: linear-gradient(152.2deg, #000000 -27.618%, #1e1b1b 78.015%);
         padding: 2rem;
         border-radius: .8rem;
         transition: 300ms all;
