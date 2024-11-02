@@ -594,21 +594,24 @@ nav {
         text-align: center;
         font-size: clamp(1.7rem, -0.875rem + 8.333vw, 3rem);
         font-weight: 600;
+    }
+    p{
+        color: #ffffff9e;
+        padding-top: .7rem;
         padding-bottom: 3rem;
+        text-align: center;
     }
 
     .cards {
         display: flex;
-        flex-direction: column;
         gap: 1rem;
 
         .card {
             width: 100%;
             background-color: #514d4a;
-            padding: 2rem;
+            padding: 1.5rem;
             border-radius: .7rem;
-            max-width: 80%;
-            transition: 300ms all;
+            transition: 600ms all;
 
             img {
                 width: 100%;
@@ -618,43 +621,35 @@ nav {
                 color: white;
                 font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
                 font-weight: 600;
-                padding: 1rem 0;
                 text-align: unset;
 
             }
 
             p {
                 color: rgba(255, 255, 255, 0.705);
+                padding-bottom: unset;
+                padding-top: .5rem;
+                text-align: unset;
+            }
+            a{
+                display: block;
+                margin-top: .8rem;
+                color: #74c3e2;
+                transition: 500ms all;
+                &:hover{
+                    padding-left: 1rem;
+                }
+            }
+            &:hover{
+                background-color: #171022;
+                transform: translateY(-.5rem);
             }
         }
-
-        .card2 {
-            width: 100%;
-            background-color: #514d4a;
-            padding:2rem;
-            border-radius: .7rem;
-            max-width: 80%;
-            margin-left: auto;
-            transition: 300ms all;
-
-
-            img {
-                width: 100%;
-            }
-
-            h2 {
-                color: white;
-                font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
-                font-weight: 600;
-                padding: 1rem 0;
-                text-align: unset;
-
-            }
-
-            p {
-                color: rgba(255, 255, 255, 0.705);
-            }
-
+        
+    }
+    @media only screen and (max-width: 800px) {
+        .cards {
+            flex-direction: column;
         }
     }
 }
