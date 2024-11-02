@@ -595,7 +595,8 @@ nav {
         font-size: clamp(1.7rem, -0.875rem + 8.333vw, 3rem);
         font-weight: 600;
     }
-    p{
+
+    p {
         color: #ffffff9e;
         padding-top: .7rem;
         padding-bottom: 3rem;
@@ -631,22 +632,48 @@ nav {
                 padding-top: .5rem;
                 text-align: unset;
             }
-            a{
+
+            a {
                 display: block;
                 margin-top: .8rem;
                 color: #74c3e2;
                 transition: 500ms all;
-                &:hover{
+
+                &:hover {
                     padding-left: 1rem;
                 }
             }
-            &:hover{
+
+            &:hover {
                 background-color: #171022;
                 transform: translateY(-.5rem);
             }
         }
-        
+
     }
+
+    .btnWhyChose {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+
+        button {
+            background-color: #5f29b7;
+            padding: 1rem 3rem;
+            border-radius: 25rem;
+            color: white;
+            margin: auto;
+            transition: 300ms all;
+            border: 2px solid #5f29b7;
+
+            &:hover {
+                background-color: transparent;
+                color: #5f29b7;
+            }
+        }
+    }
+
     @media only screen and (max-width: 800px) {
         .cards {
             flex-direction: column;
