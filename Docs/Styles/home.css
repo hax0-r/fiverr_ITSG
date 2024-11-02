@@ -308,7 +308,7 @@ nav {
         max-width: 60rem;
         width: 100%;
 
-        background: linear-gradient(to right, #FFFFFF 0%, #105697 100%);
+        background: linear-gradient(to right, #FFFFFF 0%, #035b9e 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
@@ -540,7 +540,7 @@ nav {
                 border-radius: 25rem;
                 color: white;
                 margin: auto;
-                margin-top: 1rem;
+                margin-top: 1.5rem;
                 transition: 300ms all;
                 border: 2px solid #093055;
 
