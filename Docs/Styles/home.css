@@ -91,7 +91,7 @@ nav {
                             transition: 300ms all;
 
                             &:hover {
-                                background-color: #2d364d;
+                                background-color: #5F29B7;
                             }
                         }
                     }
@@ -327,6 +327,11 @@ nav {
         line-height: 1.3;
         max-width: 60rem;
         width: 100%;
+
+        background: linear-gradient(to right, #FFFFFF 0%, #5F29B7 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
     }
 
     h2 {
@@ -477,11 +482,13 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         h1 {
             font-size: clamp(1rem, -0.875rem + 8.333vw, 1.3rem);
             color: white;
         }
-        p{
+
+        p {
             color: #ffffff63;
         }
     }
@@ -576,7 +583,7 @@ nav {
         border: 2px solid black;
         border-radius: 2rem;
         border: 2px solid rgba(255, 255, 255, 0.245);
-        
+
         &:hover {
             transform: translateY(-1rem);
             border: 2px solid white;
@@ -615,6 +622,10 @@ nav {
         text-align: center;
         font-size: clamp(1.7rem, -0.875rem + 8.333vw, 3rem);
         font-weight: 600;
+        background: #FFFFFF;
+        background: linear-gradient(to right, #FFFFFF 0%, #5F29B7 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     p {
@@ -645,6 +656,9 @@ nav {
                 font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
                 font-weight: 600;
                 text-align: unset;
+                background: unset;
+                -webkit-background-clip: unset;
+                -webkit-text-fill-color: unset;
 
             }
 
@@ -713,18 +727,22 @@ nav {
     padding: 7rem 1.2rem 4rem 1.2rem;
 
     h2 {
-        color: var(--white-color);
         text-align: center;
         font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
         font-weight: 600;
         padding-bottom: 3rem;
+        background: #FFFFFF;
+        background: linear-gradient(to right, #FFFFFF 0%, #5F29B7 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
     }
 
     .card {
         color: white;
-        background-color: #514d4a;
+        background: linear-gradient(152.2deg, #7061aa -27.618%, #340e73 78.015%);
         padding: 2rem;
-        border-radius: .5rem;
+        border-radius: .8rem;
         transition: 300ms all;
 
         .imgData {
@@ -744,10 +762,15 @@ nav {
                 font-weight: 500;
                 font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
                 padding-bottom: 0rem;
+                color: white;
+                background: unset;
+                background: unset;
+                -webkit-background-clip: unset;
+                -webkit-text-fill-color: unset;
             }
 
             h3 {
-                color: #9873e7;
+                color: #ffffff9e;
                 padding-bottom: .5rem;
             }
         }
