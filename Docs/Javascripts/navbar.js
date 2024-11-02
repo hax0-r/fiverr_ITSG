@@ -6,7 +6,7 @@ const navScrollColorChange = document.getElementById('navScrollColorChange');
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 10) {
-        navScrollColorChange.style.backgroundColor = "#000000";
+        navScrollColorChange.style.backgroundColor = "transparent";
         
     } else {
         navScrollColorChange.style.backgroundColor = "transparent";

@@ -282,11 +282,11 @@ nav {
     }
 
     @media only screen and (max-width: 500px) {
-       .starRoatate{
-        p{
-            font-size: 14px;
+        .starRoatate {
+            p {
+                font-size: 14px;
+            }
         }
-       } 
     }
 
 
@@ -383,7 +383,8 @@ nav {
         .heroBtn {
             flex-direction: column;
             width: 100%;
-            button{
+
+            button {
                 width: 100% !important;
             }
         }
@@ -443,9 +444,9 @@ nav {
 
     @media only screen and (max-width: 800px) {
         .swiper-slide img {
-            width: 80%;
+
             margin: auto;
-        height: 5rem;
+            height: 4rem;
         }
     }
 }
@@ -614,13 +615,14 @@ nav {
         &:nth-child(2) {
             transform: translateY(-3rem);
         }
+
         @media only screen and (max-width: 800px) {
             &:nth-child(2) {
                 transform: translateY(0);
             }
         }
     }
-    
+
 }
 
 .reparing {
@@ -802,13 +804,13 @@ nav {
 
     }
 
-    img{
+    img {
         border-radius: 100%;
         max-width: 20rem;
         width: 100%;
     }
-    
-    .slider{
+
+    .slider {
         display: flex;
         background: linear-gradient(152.2deg, #000000 -27.618%, #1e1b1b 78.015%);
         padding: 2rem;
@@ -874,7 +876,7 @@ nav {
     }
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background-color: #ffffff8a !important;
 }
 
