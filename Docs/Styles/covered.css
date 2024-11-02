@@ -91,12 +91,13 @@
 
         .card {
             width: 100%;
-            background-color: #514d4a;
             padding: 1.5rem;
+            border: 2px solid rgba(255, 255, 255, 0.279);
             border-radius: .8rem;
             transition: 300ms all;
-
+            
             &:hover {
+                border: 2px solid white;
                 transform: translateY(-1rem);
             }
 
@@ -164,13 +165,14 @@
 
         .card {
             width: 100%;
-            background-color: #514d4a;
+            border: 2px solid rgba(255, 255, 255, 0.237);
             padding: 1.5rem;
             border-radius: .8rem;
             transition: 300ms all;
-
-
+            
+            
             &:hover {
+                border: 2px solid white;
                 transform: translateY(-1rem);
             }
 
