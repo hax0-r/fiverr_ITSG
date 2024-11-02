@@ -738,8 +738,15 @@ nav {
             padding: 1.5rem;
             border-radius: .7rem;
             transition: 600ms all;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            gap: 2rem;
 
             img {
+                max-width: 5rem;
+                padding-bottom: 1rem;
+                filter: invert(1);
                 width: 100%;
             }
 
@@ -829,12 +836,25 @@ nav {
 
     }
 
-    .card {
-        color: white;
+    img{
+        border-radius: 100%;
+        max-width: 20rem;
+        width: 100%;
+    }
+    
+    .slider{
+        display: flex;
         background: linear-gradient(152.2deg, #000000 -27.618%, #1e1b1b 78.015%);
         padding: 2rem;
+        gap: 3rem;
         border-radius: .8rem;
+        align-items: center;
+    }
+
+    .card {
+        color: white;
         transition: 300ms all;
+        padding-top: 3rem;
 
         .imgData {
             display: flex;
@@ -877,6 +897,7 @@ nav {
 
         p {
             color: #ffffff91;
+            padding-bottom: 3rem;
         }
     }
 }
