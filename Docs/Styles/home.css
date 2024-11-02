@@ -305,10 +305,9 @@ nav {
         margin-bottom: 1rem;
         align-items: center;
         gap: .6rem;
-        border: 2px solid white;
+        border: 2px solid rgba(255, 255, 255, 0.679);
         padding: .5rem 1rem .5rem .8rem;
         border-radius: .5rem;
-
         .fa-star {
             color: var(--white-color);
             animation: rotateStar 10s linear infinite;
@@ -356,21 +355,29 @@ nav {
 
         button {
             padding: 1rem 2.5rem;
-            background-color: transparent;
-            border-radius: .5rem;
-            border: 2px solid white;
+            background-color: #5f29b7;
+            border-radius: 25rem;
+            border: 2px solid #5f29b7;
             color: var(--white-color);
             font-size: 16px;
             cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
             transition: 300ms all;
+            text-decoration: none;
 
             &:hover {
-                background-color: white;
-                color: var(--black-color);
+                background-color: #570bd0;
             }
+
+            img{
+                height: 2rem;
+            }
+            
         }
 
-        a {
+        .heroAncor2 {
             padding: 1rem;
             background-color: transparent;
             color: var(--white-color);
@@ -427,7 +434,7 @@ nav {
 }
 
 .loges {
-    background: #514d4a;
+    background: #0e0d0d;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
