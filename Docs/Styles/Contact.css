@@ -98,18 +98,17 @@
         button {
             width: 100%;
             border-radius: 5rem;
-            background-color: #5f29b7;
+            background-color: #093055;
             color: white;
             padding: 1.2rem;
             font-size: 1.2rem;
             font-weight: 500;
             margin-top: 2rem;
             transition: 300ms all;
-            border: 3px solid #5f29b7;
+            border: 3px solid #093055;
 
             &:hover {
                 background-color: transparent;
-                color: #5f29b7;
             }
         }
 
