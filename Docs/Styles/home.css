@@ -47,7 +47,7 @@ nav {
                 letter-spacing: .3px;
             }
 
-            &:nth-child(2) {
+            &:nth-child(3) {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -103,7 +103,7 @@ nav {
             }
 
             &:hover {
-                &:nth-child(2) {
+                &:nth-child(3) {
                     ul {
                         display: flex;
                     }
