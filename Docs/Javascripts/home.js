@@ -27,7 +27,7 @@ var swiper1 = new Swiper(".mySwiper", {
 
 // Swiper for ".mySwiper2"
 var swiper2 = new Swiper(".mySwiper2", {
-  spaceBetween: 30,
+  spaceBetween: 10,
 
   loop: true,
   autoplay: {
@@ -44,7 +44,7 @@ var swiper2 = new Swiper(".mySwiper2", {
       slidesPerView: 3,
     },
     1280: {
-      slidesPerView: 4,
+      slidesPerView: 5,
     }
   }
 });

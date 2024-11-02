@@ -445,13 +445,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .loges {
@@ -460,26 +458,27 @@ nav {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: none;
+    border-right: none;
     padding: 2rem 1rem;
 
     .swipermySwiper {
-        max-width: 70rem;
+        max-width: 50rem;
         width: 100%;
         margin: auto;
     }
 
     .swiper-slide img {
         display: block;
-        width: 100%;
+        /* width: 100%; */
         height: 5rem;
-        object-fit: cover;
     }
 
     @media only screen and (max-width: 800px) {
         .swiper-slide img {
             width: 80%;
             margin: auto;
-            height: 5rem;
+        height: 5rem;
         }
     }
 }
