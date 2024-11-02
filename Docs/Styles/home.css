@@ -308,6 +308,7 @@ nav {
         border: 2px solid rgba(255, 255, 255, 0.679);
         padding: .5rem 1rem .5rem .8rem;
         border-radius: .5rem;
+
         .fa-star {
             color: var(--white-color);
             animation: rotateStar 10s linear infinite;
@@ -359,11 +360,11 @@ nav {
             border-radius: 25rem;
             border: 2px solid #5f29b7;
             color: var(--white-color);
-            font-size: 16px;
+            font-size: 18px;
             cursor: pointer;
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: .7rem;
             transition: 300ms all;
             text-decoration: none;
 
@@ -371,10 +372,10 @@ nav {
                 background-color: #570bd0;
             }
 
-            img{
+            img {
                 height: 2rem;
             }
-            
+
         }
 
         .heroAncor2 {
@@ -462,6 +463,15 @@ nav {
         }
     }
 }
+
+/* page2 */
+
+
+
+
+
+
+/* what we do */
 
 .whatWeDo {
     background-color: var(--black-color);
@@ -572,6 +582,50 @@ nav {
     }
 }
 
+.reparings {
+    max-width: 80rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding: 1.2rem;
+
+    .card {
+        max-width: 360px;
+        width: 100%;
+        padding: 2rem;
+        transition: 300ms all;
+        border: 2px solid black;
+        border-radius: 2rem;
+        border: 2px solid rgba(255, 255, 255, 0.245);
+
+        &:hover {
+            transform: translateY(-1rem);
+            border: 2px solid white;
+        }
+
+        img {
+            height: 120px;
+        }
+        
+        h2 {
+            padding: 1.5rem 0;
+            color: white;
+            font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
+            font-weight: 600;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.705);
+            font-size: 14px;
+        }
+        &:nth-child(2){
+            transform: translateY(-3rem);
+        }
+    }
+}
 .reparing {
     max-width: 80rem;
     width: 100%;
