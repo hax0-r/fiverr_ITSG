@@ -28,10 +28,7 @@ var swiper1 = new Swiper(".mySwiper", {
 // Swiper for ".mySwiper2"
 var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+
   loop: true,
   autoplay: {
     delay: 2500,

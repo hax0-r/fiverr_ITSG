@@ -540,6 +540,7 @@ nav {
         max-width: 75rem;
         width: 100%;
         margin: auto;
+        padding: 2rem 0 2rem 0;
 
         @media only screen and (max-width: 800px) {
             padding: 4rem 0 0rem 0;
@@ -586,6 +587,8 @@ nav {
             img {
                 max-width: 30rem;
                 width: 100%;
+                border-radius: 100%;
+                filter: drop-shadow(5px 5px 10px #1e609d);
             }
         }
     }
@@ -884,6 +887,9 @@ nav {
     }
 }
 
+.swiper-pagination-bullet-active{
+    background-color: #ffffff8a !important;
+}
 
 /* footer */
 
