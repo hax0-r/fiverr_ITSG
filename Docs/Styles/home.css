@@ -318,7 +318,7 @@ nav {
 
 
     h1 {
-        font-size: clamp(1.5rem, -0.875rem + 8.333vw, 3.3rem);
+        font-size: clamp(1.8rem, -0.875rem + 8.333vw, 3.3rem);
         font-weight: 600;
         display: flex;
         justify-content: center;
@@ -328,7 +328,7 @@ nav {
         max-width: 60rem;
         width: 100%;
 
-        background: linear-gradient(to right, #FFFFFF 0%, #5F29B7 100%);
+        background: linear-gradient(to right, #FFFFFF 0%, #105697 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
@@ -353,12 +353,13 @@ nav {
         align-items: center;
         gap: 1rem;
         margin-top: 1rem;
+        width: 100%;
 
         button {
             padding: 1rem 2.5rem;
-            background-color: #5f29b7;
+            background-color: #093055;
             border-radius: 25rem;
-            border: 2px solid #5f29b7;
+            border: 2px solid #093055;
             color: var(--white-color);
             font-size: 18px;
             cursor: pointer;
@@ -369,7 +370,8 @@ nav {
             text-decoration: none;
 
             &:hover {
-                background-color: #570bd0;
+                border: 2px solid #05213b;
+                background-color: #05213b;
             }
 
             img {
@@ -394,11 +396,21 @@ nav {
 
         @media only screen and (max-width: 800px) {
             button {
-                padding: .8rem 1rem;
+                padding: .9rem 1.2rem;
             }
 
             a {
                 padding: .8rem 1rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .heroBtn {
+            flex-direction: column;
+            width: 100%;
+            button{
+                width: 100% !important;
             }
         }
     }
@@ -609,7 +621,7 @@ nav {
         img {
             height: 120px;
         }
-        
+
         h2 {
             padding: 1.5rem 0;
             color: white;
@@ -621,11 +633,13 @@ nav {
             color: rgba(255, 255, 255, 0.705);
             font-size: 14px;
         }
-        &:nth-child(2){
+
+        &:nth-child(2) {
             transform: translateY(-3rem);
         }
     }
 }
+
 .reparing {
     max-width: 80rem;
     width: 100%;
@@ -684,7 +698,7 @@ nav {
         font-size: clamp(1.7rem, -0.875rem + 8.333vw, 3rem);
         font-weight: 600;
         background: #FFFFFF;
-        background: linear-gradient(to right, #FFFFFF 0%, #5F29B7 100%);
+        background: linear-gradient(to right, #FFFFFF 0%, #105697 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -756,18 +770,17 @@ nav {
         margin-top: 3rem;
 
         button {
-            background-color: #5f29b7;
+            background-color: #093055;
             position: relative;
             padding: 1rem 3rem;
             border-radius: 25rem;
             color: white;
             margin: auto;
             transition: 300ms all;
-            border: 2px solid #5f29b7;
+            border: 2px solid #093055;
 
             &:hover {
                 background-color: transparent;
-                color: #5f29b7;
             }
         }
     }
@@ -793,7 +806,7 @@ nav {
         font-weight: 600;
         padding-bottom: 3rem;
         background: #FFFFFF;
-        background: linear-gradient(to right, #FFFFFF 0%, #5F29B7 100%);
+        background: linear-gradient(to right, #FFFFFF 0%, #105697 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
@@ -801,7 +814,7 @@ nav {
 
     .card {
         color: white;
-        background: linear-gradient(152.2deg, #7061aa -27.618%, #340e73 78.015%);
+        background: linear-gradient(152.2deg, #2867a2 -27.618%, #093055 78.015%);
         padding: 2rem;
         border-radius: .8rem;
         transition: 300ms all;
