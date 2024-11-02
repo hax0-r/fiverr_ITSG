@@ -488,7 +488,8 @@ nav {
 .whatWeDo {
     background-color: var(--black-color);
     position: relative;
-    padding: 4rem 0 3rem 0;
+    padding: 4rem 1rem 3rem 1rem;
+
 
 
     .bg {
@@ -538,7 +539,6 @@ nav {
 
 
         .first {
-            padding: 1.5rem;
             max-width: 50%;
             width: 100%;
             color: var(--white-color);
@@ -637,7 +637,13 @@ nav {
         &:nth-child(2) {
             transform: translateY(-3rem);
         }
+        @media only screen and (max-width: 800px) {
+            &:nth-child(2) {
+                transform: translateY(0);
+            }
+        }
     }
+    
 }
 
 .reparing {
