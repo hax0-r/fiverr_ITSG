@@ -451,12 +451,6 @@ nav {
     }
 }
 
-/* page2 */
-
-
-
-
-
 
 /* what we do */
 
@@ -819,6 +813,12 @@ nav {
         align-items: center;
     }
 
+    @media only screen and (max-width: 700px) {
+        .slider{
+            flex-direction: column;
+        }
+    }
+
     .card {
         color: white;
         transition: 300ms all;
@@ -866,6 +866,12 @@ nav {
         p {
             color: #ffffff91;
             padding-bottom: 3rem;
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        .card{
+            padding-top: unset;
         }
     }
 }
