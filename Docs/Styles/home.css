@@ -533,7 +533,7 @@ nav .fa-bars {
     text-transform: uppercase;
 }
 .whatWeDo .borderHeading p {
-    color: #fff 63;
+    color: #fff;
 }
 @media only screen and (max-width: 500px) {
     .whatWeDo .borderHeading p {
