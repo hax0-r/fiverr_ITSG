@@ -51,7 +51,7 @@
     .main {
         .second {
 
-            img {
+            .borderSettig {
                 border-radius: .4rem;
             }
         }
