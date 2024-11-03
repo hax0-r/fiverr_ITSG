@@ -4,7 +4,7 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
     max-width: 60rem;
     margin: auto;
     width: 100%;
@@ -53,7 +53,7 @@
             transform: translateY(-1rem);
 }
 .CoveredAreass .cards .card h3 {
-    font-size: clamp(1.1rem, 7.458rem, 1.3rem);
+    font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.3rem);
     padding-bottom: 0.8rem;
     font-weight: 500;
 }
@@ -70,7 +70,7 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
     max-width: 60rem;
     margin: auto;
     width: 100%;
@@ -132,7 +132,7 @@
     padding-bottom: 1rem;
 }
 .OurITengineerprofile .cards .card h3 {
-    font-size: clamp(1.1rem, 7.458rem, 1.3rem);
+    font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.3rem);
     padding-bottom: 0.8rem;
     font-weight: 500;
 }
@@ -164,7 +164,7 @@
     */
 }
 .heroSectionServices h2 {
-    font-size: clamp(1.1rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
     padding-top: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;

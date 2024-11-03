@@ -17,7 +17,7 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
     max-width: 60rem;
     margin: auto;
     width: 100%;
@@ -33,7 +33,7 @@
 .computerSoftware h2 {
     color: white;
     font-weight: 500;
-    font-size: clamp(1.3rem, 7.458rem, 2rem);
+    font-size: clamp(1.3rem, -0.875rem + 8.333vw, 2rem);
     margin-top: 5rem;
 }
 @media only screen and (max-width: 800px) {
@@ -48,7 +48,7 @@
 .computerSoftware h3 {
     color: white;
     font-weight: 500;
-    font-size: clamp(1.2rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
     margin-top: 2rem;
 }
 .computerSoftware span {
@@ -141,7 +141,7 @@
 .reparings a .card h2 {
     padding: 1.5rem 0;
     color: white;
-    font-size: clamp(1.2rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
     font-weight: 600;
 }
 .reparings a .card p {
@@ -172,7 +172,7 @@
     */
 }
 .heroSectionServices h2 {
-    font-size: clamp(1.1rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
     padding-top: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;

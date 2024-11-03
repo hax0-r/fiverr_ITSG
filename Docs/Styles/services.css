@@ -10,7 +10,7 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
     max-width: 60rem;
     margin: auto;
     width: 100%;
@@ -19,7 +19,7 @@
 .computerSoftware h2 {
     color: white;
     font-weight: 500;
-    font-size: clamp(1.3rem, 7.458rem, 2rem);
+    font-size: clamp(1.3rem, -0.875rem + 8.333vw, 2rem);
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
@@ -36,14 +36,14 @@
 .computerSoftware h3 {
     color: white;
     font-weight: 500;
-    font-size: clamp(1.2rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
     margin-top: 2rem;
 }
 .whatWeDo {
     background-color: transparent;
 }
 .whatWeDo .main .first h1 {
-    font-size: clamp(1.3rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.3rem, -0.875rem + 8.333vw, 2.5rem);
 }
 @media only screen and (max-width: 500px) {
     .whatWeDo .main .first h1 {
@@ -89,7 +89,7 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
     max-width: 60rem;
     margin: auto;
     width: 100%;
@@ -144,7 +144,7 @@
             transform: translateY(-1rem);
 }
 .OurITengineerprofile .cards .card h3 {
-    font-size: clamp(1.1rem, 7.458rem, 1.3rem);
+    font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.3rem);
     padding-bottom: 0.8rem;
     font-weight: 500;
 }
@@ -180,7 +180,7 @@
     */
 }
 .heroSectionServices h2 {
-    font-size: clamp(1.1rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
     padding-top: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -228,7 +228,7 @@
 }
 .testimonialsMalware h2 {
     text-align: center;
-    font-size: clamp(2rem, 7.458rem, 3rem);
+    font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
     font-weight: 600;
     padding-bottom: 3rem;
     background: #fff;
@@ -291,7 +291,7 @@
 }
 .testimonialsMalware .card .imgData h2 {
     font-weight: 500;
-    font-size: clamp(1.2rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
     padding-bottom: 0rem;
     color: white;
     background: unset;

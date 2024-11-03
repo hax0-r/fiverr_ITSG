@@ -37,7 +37,7 @@
     padding-top: 4rem;
 }
 .heroSectionContact h2 {
-    font-size: clamp(1.1rem, 7.458rem, 1.5rem);
+    font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
     padding-top: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,7 +77,7 @@
 }
 .form form h2 {
     font-weight: 600;
-    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
     padding-bottom: 2rem;
 }
 .form form .input1 {
@@ -307,12 +307,12 @@
     text-align: center;
     font-weight: 600;
     margin-bottom: 2rem;
-    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
 }
 .OurIT h3 {
     margin-top: 2rem;
     font-weight: 500;
-    font-size: clamp(1rem, 7.458rem, 1.2rem);
+    font-size: clamp(1rem, -0.875rem + 8.333vw, 1.2rem);
 }
 .OurIT p {
     padding-top: 0.5rem;
