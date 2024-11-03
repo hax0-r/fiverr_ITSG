@@ -497,6 +497,12 @@ nav {
         p {
             color: #ffffff63;
         }
+
+        @media only screen and (max-width: 500px) {
+            p{
+                display: none;
+            }
+        }
     }
 
     .main {
