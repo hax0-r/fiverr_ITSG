@@ -171,6 +171,7 @@ nav .fa-bars {
         -o-transition: 500ms all;
         transition: 500ms all;
         overflow: hidden;
+        padding-top: 3rem;
    }
     .reponsiveNavbar .fa-x {
         position: absolute;
