@@ -160,6 +160,7 @@
         .heading {
             display: flex;
             align-items: center;
+            justify-content: space-around;
             gap: 2rem;
 
             h2 {
@@ -185,6 +186,8 @@
 
         .locationAddress {
             color: white;
+            height: 100%;
+
             i {
                 display: flex;
                 align-items: center;
@@ -195,6 +198,13 @@
                 background-color: #093055;
             }
 
+            .addressSection{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+            }
+
             .address{
                 display: flex;
                 gap: 1rem;
@@ -203,6 +213,13 @@
                     font-weight: 600;
                     font-size: 17px;
                 }
+            }
+            .addressPara{
+                border: 2px solid rgba(255, 255, 255, 0.319);
+                padding: 1rem;
+                margin-bottom: 4rem;
+                border-radius: .5rem;
+                color: rgba(255, 255, 255, 0.719);
             }
             .map{
                 display: none;

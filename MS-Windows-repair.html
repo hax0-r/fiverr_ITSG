@@ -21,51 +21,59 @@
 <body>
 
 
-    <div
-    class="absolute top-0 z-[-2] h-[150%] w-screen bg-[#000000] bg-[radial-gradient(#ffffff40_1px,#000000_1px)] bg-[size:20px_20px]">
-</div>
 
+    <nav id="navScrollColorChange">
+        <a href="./index.html">
+            <img src="./Docs/Assets/Images/logo.jpg" alt="">
+        </a>
+        <ul>
+            <li><a href="./index.html" class="navUnderLine">Home</a></li>
+            <li><a href="./index.html#whatWoDo" class="navUnderLine">About</a></li>
+            <li><a>Services</a><i class="fa-solid fa-sort-down"></i>
+                <ul class="fastFadeIn">
+                    <li><a href="./Malware-removal.html">Malware removal</a></li>
+                    <li><a href="./MS-Windows-repair.html">MS Windows repair</a></li>
+                    <li><a href="./HIRE-IT-ENgineer.html">Hire IT engineer</a></li>
+                </ul>
+            </li>
+            <li><a href="./Covered-areas.html" class="navUnderLine">Coverd Area</a></li>
+            <li><a href="./contact.html" class="navUnderLine">Contact Us</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="openNav"></i>
+    </nav>
 
-<nav id="navScrollColorChange">
-    <a href="./index.html">
-        <img src="./Docs/Assets/Images/logo.jpg" alt="">
-    </a>
-    <ul>
-        <li><a href="./index.html" class="navUnderLine">Home</a></li>
-        <li><a href="./index.html#whatWoDo" class="navUnderLine">About</a></li>
-        <li><a>Services</a><i class="fa-solid fa-sort-down"></i>
-            <ul class="fastFadeIn">
-                <li><a href="./Malware-removal.html">Malware removal</a></li>
-                <li><a href="./MS-Windows-repair.html">MS Windows repair</a></li>
-                <li><a href="./HIRE-IT-ENgineer.html">Hire IT engineer</a></li>
-            </ul>
-        </li>
-        <li><a href="./Covered-areas.html" class="navUnderLine">Coverd Area</a></li>
-        <li><a href="./contact.html" class="navUnderLine">Contact Us</a></li>
-    </ul>
-    <i class="fa-solid fa-bars" id="openNav"></i>
-</nav>
+    <!-- reponsive Navbar -->
 
-<!-- reponsive Navbar -->
+    <div id="overlayNavbar" class="overlayNavbar closeNav fastFadeIn"></div>
+    <div class="reponsiveNavbar" id="responsiveNav">
+        <i class="fa-solid fa-x" id="closeNav"></i>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#whatWoDo">About</a></li>
+            <li><a>Services</a>
+                <ul>
+                    <li><a href="./Malware-removal.html">Malware removal</a></li>
+                    <li><a href="./MS-Windows-repair.html">MS Windows repair</a></li>
+                    <li><a href="./HIRE-IT-ENgineer.html">Hire IT engineer</a></li>
+                </ul>
+            </li>
+            <li><a href="./Covered-areas.html">Coverd Area</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </div>
 
-<div id="overlayNavbar" class="overlayNavbar closeNav fastFadeIn"></div>
-<div class="reponsiveNavbar" id="responsiveNav">
-    <i class="fa-solid fa-x" id="closeNav"></i>
-    <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./index.html#whatWoDo">About</a></li>
-        <li><a>Services</a>
-            <ul>
-                <li><a href="./Malware-removal.html">Malware removal</a></li>
-                <li><a href="./MS-Windows-repair.html">MS Windows repair</a></li>
-                <li><a href="./HIRE-IT-ENgineer.html">Hire IT engineer</a></li>
-            </ul>
-        </li>
-        <li><a href="./Covered-areas.html">Coverd Area</a></li>
-        <li><a href="./contact.html">Contact Us</a></li>
-    </ul>
-</div>
-
+    <div class="conatiner">
+        <div class="heroSectionServices msBg">
+            <h2 class="slidein [--slidein-delay:700ms] opacity-0">
+                ITSG – Mobile IT Consultancy for residents and small businesses in East London is here to provide you
+                with
+                top-notch computer repair services. We specialise in Microsoft Windows repair, offering comprehensive
+                solutions for all kinds of issues. From virus removal to software troubleshooting, our experienced team
+                has
+                got you covered. We take pride in our friendly and approachable service, ensuring that we provide
+                easy-to-understand guidance and solutions in plain English.
+            </h2>
+        </div>
         <!-- COMPUTER SOFTWARE REPAIRS | MALICIOUS SOFTWARE REMOVAL -->
 
         <div class="computerSoftware">
@@ -91,10 +99,12 @@
                 your car makes a strange noise you can’t explain
             </p>
             <h3>Our Expertise</h3>
-            <p>With a team of skilled and experienced technicians, we possess in-depth knowledge of the latest malware threats, their behaviors, and their evolving tactics. We leverage this expertise to effectively identify and remove viruses, spyware, scareware, adware and other malicious software.</p>
+            <p>With a team of skilled and experienced technicians, we possess in-depth knowledge of the latest malware
+                threats, their behaviors, and their evolving tactics. We leverage this expertise to effectively identify
+                and
+                remove viruses, spyware, scareware, adware and other malicious software.</p>
         </div>
-        
-        <div class="conatiner">
+
 
         <!-- what we do -->
 
@@ -113,7 +123,7 @@
                     </a>
                 </div>
                 <div class="second">
-                    <img src="./Docs/Assets/Images/home/ai3.jpeg" alt="">
+                    <img src="./Docs/Assets/Images/home/malwareImg.jpeg" alt="">
                 </div>
             </div>
         </div>
