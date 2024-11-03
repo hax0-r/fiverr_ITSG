@@ -49,6 +49,15 @@
     background-color: transparent;
 
     .main {
+
+        .first{
+            span{
+
+                color: #FFFFFF;
+                font-weight: 500;
+            }
+        }
+        
         .second {
 
             .borderSettig {
