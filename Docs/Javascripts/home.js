@@ -71,7 +71,7 @@ var swiper3 = new Swiper(".mySwiper3", {
 });
 
 document.getElementById("showAddress").addEventListener("click", function() {
-  document.getElementById("addressSection").style.display = "block";
+  document.getElementById("addressSection").style.display = "flex";
   document.getElementById("showAddress").style.color = "#093055";
   document.getElementById("showMap").style.color = "#fff";
   document.getElementById("mapSection").style.display = "none";
@@ -81,5 +81,5 @@ document.getElementById("showMap").addEventListener("click", function() {
   document.getElementById("showAddress").style.color = "#fff";
   document.getElementById("showMap").style.color = "#093055";
   document.getElementById("addressSection").style.display = "none";
-  document.getElementById("mapSection").style.display = "block";
+  document.getElementById("mapSection").style.display = "flex";
 });
