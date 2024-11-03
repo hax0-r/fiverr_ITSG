@@ -153,6 +153,13 @@
             border-radius: .8rem;
             transition: 300ms all;
 
+            
+            img{
+                height: 5rem;
+                filter: invert(1);
+                padding-bottom: 1rem;
+            }
+
             &:hover {
                 border: 2px solid white;
                 transform: translateY(-1rem);

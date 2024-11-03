@@ -122,6 +122,12 @@
                 transform: translateY(-1rem);
             }
 
+            img{
+                height: 5rem;
+                filter: invert(1);
+                padding-bottom: 1rem;
+            }
+
             h3 {
                 font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.3rem);
                 padding-bottom: .8rem;
