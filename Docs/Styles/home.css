@@ -669,6 +669,11 @@ nav .fa-bars {
     /* border-radius: 2rem; */
     border: 2px solid rgba(255, 255, 255, 0.245);
 }
+@media only screen and (max-width: 800px) {
+    .reparings a .card{
+        max-width: 100%;
+    }
+}
 .reparings a .card:hover {
     -webkit-transform: translateY(-1rem);
         -ms-transform: translateY(-1rem);
