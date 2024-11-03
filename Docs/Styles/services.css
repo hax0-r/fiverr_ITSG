@@ -1,342 +1,333 @@
+
 .computerSoftware {
     max-width: 75rem;
     width: 100%;
     margin: auto;
     padding: 0 1.2rem;
     padding-top: 4rem;
-
-    h1 {
-        text-align: center;
-        color: white;
-        font-weight: 600;
-        font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
-        max-width: 60rem;
-        margin: auto;
-        width: 100%;
-        margin-top: 5rem;
-    }
-
-    h2 {
-        color: white;
-        font-weight: 500;
-        font-size: clamp(1.3rem, -0.875rem + 8.333vw, 2rem);
-        margin-top: 5rem;
-        margin-bottom: 2rem;
-    }
-
-    a {
-        color: rgb(0, 183, 255);
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
-    p {
-        color: #ffffffa8;
-        padding-top: 1rem;
-    }
-
-    h3 {
-        color: white;
-        font-weight: 500;
-        font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
-        margin-top: 2rem;
-    }
 }
-
+.computerSoftware h1 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    max-width: 60rem;
+    margin: auto;
+    width: 100%;
+    margin-top: 5rem;
+}
+.computerSoftware h2 {
+    color: white;
+    font-weight: 500;
+    font-size: clamp(1.3rem, 7.458rem, 2rem);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.computerSoftware a {
+    color: #00b7ff;
+}
+.computerSoftware a:hover {
+    text-decoration: underline;
+}
+.computerSoftware p {
+    color: #fff a8;
+    padding-top: 1rem;
+}
+.computerSoftware h3 {
+    color: white;
+    font-weight: 500;
+    font-size: clamp(1.2rem, 7.458rem, 1.5rem);
+    margin-top: 2rem;
+}
 .whatWeDo {
     background-color: transparent;
-
-    .main {
-
-        .first {
-            h1 {
-                font-size: clamp(1.3rem, -0.875rem + 8.333vw, 2.5rem);
-            }
-
-            @media only screen and (max-width: 500px) {
-                h1 {
-                    margin-top: 1rem;
-                }
-            }
-
-            span {
-
-                color: #FFFFFF;
-                font-weight: 500;
-            }
-        }
-
-        .second {
-
-            .borderSettig {
-                border-radius: .4rem;
-            }
-            @media only screen and (max-width: 500px) {
-                .borderSettig {
-                    padding-top: 1rem;
-                }
-            }
-        }
-    }
-
-    a {
-
-        button {
-            background-color: transparent;
-            color: white;
-            padding: 1rem 3rem;
-            margin-top: 1rem;
-            border-radius: .7rem;
-            border: 2px solid white;
-            transition: 300ms all;
-
-            &:hover {
-                background-color: white;
-                color: black;
-            }
-        }
-    }
 }
-
+.whatWeDo .main .first h1 {
+    font-size: clamp(1.3rem, 7.458rem, 2.5rem);
+}
 @media only screen and (max-width: 500px) {
-    .adjustPadding{
-        padding: 0 1rem;
-
-    }
+    .whatWeDo .main .first h1 {
+        margin-top: 1rem;
+   }
 }
-
-
-
+.whatWeDo .main .first span {
+    color: #fff;
+    font-weight: 500;
+}
+.whatWeDo .main .second .borderSettig {
+    border-radius: 0.4rem;
+}
+@media only screen and (max-width: 500px) {
+    .whatWeDo .main .second .borderSettig {
+        padding-top: 1rem;
+   }
+}
+.whatWeDo a button {
+    background-color: transparent;
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+    border: 2px solid white;
+    -webkit-transition: 300ms all;
+    -o-transition: 300ms all;
+    transition: 300ms all;
+}
+.whatWeDo a button:hover {
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width: 500px) {
+    .adjustPadding {
+        padding: 0 1rem;
+   }
+}
 .OurITengineerprofile {
     padding-bottom: 3rem;
-
-
-    h2 {
-        text-align: center;
-        color: white;
-        font-weight: 600;
-        font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
-        max-width: 60rem;
-        margin: auto;
-        width: 100%;
-        margin-top: 5rem;
-        margin-bottom: 2.5rem;
-    }
-
-    @media only screen and (max-width: 800px) {
-        h2 {
-            margin-top: 3rem;
-            margin-bottom: 1rem;
-        }
-    }
-
-    .cards {
-        display: flex;
-        justify-content: center;
-        color: white;
-        max-width: 75rem;
-        width: 100%;
-        margin: auto;
-        gap: 1rem;
-        padding: 1.2rem;
-
-        @media only screen and (max-width: 800px) {
+}
+.OurITengineerprofile h2 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 7.458rem, 2.5rem);
+    max-width: 60rem;
+    margin: auto;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+@media only screen and (max-width: 800px) {
+    .OurITengineerprofile h2 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+   }
+}
+.OurITengineerprofile .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    max-width: 75rem;
+    width: 100%;
+    margin: auto;
+    gap: 1rem;
+    padding: 1.2rem;
+}
+@media only screen and (max-width: 800px) {
+    .OurITengineerprofile .cards {
+        -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        }
-
-        .card {
-            width: 100%;
-            padding: 1.5rem;
-            border: 2px solid rgba(255, 255, 255, 0.318);
-            border-radius: .8rem;
-            transition: 300ms all;
-
-            
-            img{
-                height: 5rem;
-                filter: invert(1);
-                padding-bottom: 1rem;
-            }
-
-            &:hover {
-                border: 2px solid white;
-                transform: translateY(-1rem);
-            }
-
-            h3 {
-                font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.3rem);
-                padding-bottom: .8rem;
-                font-weight: 500;
-            }
-        }
-    }
+   }
 }
-
+.OurITengineerprofile .cards .card {
+    width: 100%;
+    padding: 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.318);
+    border-radius: 0.8rem;
+    -webkit-transition: 300ms all;
+    -o-transition: 300ms all;
+    transition: 300ms all;
+}
+.OurITengineerprofile .cards .card img {
+    height: 5rem;
+    -webkit-filter: invert(1);
+            filter: invert(1);
+    padding-bottom: 1rem;
+}
+.OurITengineerprofile .cards .card:hover {
+    border: 2px solid white;
+    -webkit-transform: translateY(-1rem);
+        -ms-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+}
+.OurITengineerprofile .cards .card h3 {
+    font-size: clamp(1.1rem, 7.458rem, 1.3rem);
+    padding-bottom: 0.8rem;
+    font-weight: 500;
+}
 @media only screen and (max-width: 500px) {
-    .OurITengineerprofile{
+    .OurITengineerprofile {
         padding-bottom: 0;
-        h2{
-            margin-top: 1rem;
-        }
-    }
+   }
+    .OurITengineerprofile h2 {
+        margin-top: 1rem;
+   }
 }
-
 .heroSectionServices {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+   /* text-align: center;
+    */
     color: var(--white-color);
     min-height: 100vh;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 1rem;
-    /* padding-top: 4rem; */
-
-    h2 {
-        font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
-        padding-top: 1rem;
-        display: flex;
-        /* justify-content: center;
-        align-items: center;
-        flex-direction: column; */
-        max-width: 75rem;
-        width: 100%;
-        font-weight: 500;
-        color: #8f889a;
-
-    }
+   /* padding-top: 4rem;
+    */
 }
-
-
+.heroSectionServices h2 {
+    font-size: clamp(1.1rem, 7.458rem, 1.5rem);
+    padding-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   /* justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    */
+    max-width: 75rem;
+    width: 100%;
+    font-weight: 500;
+    color: #8f889a;
+}
 .malwarebg {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.959)), to(rgba(0, 0, 0, 0.959))), url(../Assets/Images/home/malwarebg.jpeg) center/cover;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/malwarebg.jpeg) center/cover;
     background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/malwarebg.jpeg) center/cover;
 }
-
 .msBg {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.959)), to(rgba(0, 0, 0, 0.959))), url(../Assets/Images/home/msbg.jpeg) center;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/msbg.jpeg) center;
     background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/msbg.jpeg) center;
 }
-
 .bgIt {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.959)), to(rgba(0, 0, 0, 0.959))), url(../Assets/Images/home/bgIt.jpeg) center;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/bgIt.jpeg) center;
     background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/bgIt.jpeg) center;
 }
-
 .coveredBg {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.959)), to(rgba(0, 0, 0, 0.959))), url(../Assets/Images/covered/coveredBg.jpeg) center/cover;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/covered/coveredBg.jpeg) center/cover;
     background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/covered/coveredBg.jpeg) center/cover;
 }
-
 /* testimonialsMalware */
-
 @media only screen and (max-width: 500px) {
-    .adjustPaddingtestimonials{
+    .adjustPaddingtestimonials {
         padding-top: 2.5rem !important;
-    }
+   }
 }
-
 .testimonialsMalware {
     max-width: 80rem;
     width: 100%;
     margin: auto;
     padding: 0rem 1.2rem 4rem 1.2rem;
-
-    h2 {
-        text-align: center;
-        font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
-        font-weight: 600;
-        padding-bottom: 3rem;
-        background: #FFFFFF;
-        background: linear-gradient(to right, #FFFFFF 0%, #105697 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-
-    }
-
-    img {
-        border-radius: 100%;
-        max-width: 20rem;
-        width: 100%;
-    }
-
-    .slider {
-        display: flex;
-        background: linear-gradient(152.2deg, #000000 -27.618%, #1e1b1b 78.015%);
-        padding: 2rem;
-        gap: 3rem;
-        border-radius: .8rem;
-        align-items: center;
-    }
-
-    @media only screen and (max-width: 700px) {
-        .slider {
-            flex-direction: column;
-        }
-    }
-
-    .card {
-        color: white;
-        transition: 300ms all;
-        padding-top: 3rem;
-
-        .imgData {
-            display: flex;
-            justify-content: start;
-            align-items: center;
-            padding-bottom: 2rem;
-            gap: 2rem;
-
-            img {
-                border-radius: 100%;
-                width: 6rem;
-                height: 6rem;
-            }
-
-            h2 {
-                font-weight: 500;
-                font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
-                padding-bottom: 0rem;
-                color: white;
-                background: unset;
-                background: unset;
-                -webkit-background-clip: unset;
-                -webkit-text-fill-color: unset;
-            }
-
-            h3 {
-                color: #ffffff9e;
-                padding-bottom: .5rem;
-            }
-        }
-
-        @media only screen and (max-width: 800px) {
-            .imgData {
-                flex-direction: column;
-                text-align: center;
-                padding-bottom: 1rem;
-                gap: 1rem;
-            }
-        }
-
-        p {
-            color: #ffffff91;
-            padding-bottom: 3rem;
-        }
-    }
-
-    @media only screen and (max-width: 700px) {
-        .card {
-            padding-top: unset;
-        }
-    }
 }
-
+.testimonialsMalware h2 {
+    text-align: center;
+    font-size: clamp(2rem, 7.458rem, 3rem);
+    font-weight: 600;
+    padding-bottom: 3rem;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#fff), to(#105697));
+    background: -o-linear-gradient(left, #fff 0%, #105697 100%);
+    background: linear-gradient(to right, #fff 0%, #105697 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.testimonialsMalware img {
+    border-radius: 100%;
+    max-width: 20rem;
+    width: 100%;
+}
+.testimonialsMalware .slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: -o-linear-gradient(297.8deg, #000 -27.618%, #1e1b1b 78.015%);
+    background: linear-gradient(152.2deg, #000 -27.618%, #1e1b1b 78.015%);
+    padding: 2rem;
+    gap: 3rem;
+    border-radius: 0.8rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+@media only screen and (max-width: 700px) {
+    .testimonialsMalware .slider {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+   }
+}
+.testimonialsMalware .card {
+    color: white;
+    -webkit-transition: 300ms all;
+    -o-transition: 300ms all;
+    transition: 300ms all;
+    padding-top: 3rem;
+}
+.testimonialsMalware .card .imgData {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+.testimonialsMalware .card .imgData img {
+    border-radius: 100%;
+    width: 6rem;
+    height: 6rem;
+}
+.testimonialsMalware .card .imgData h2 {
+    font-weight: 500;
+    font-size: clamp(1.2rem, 7.458rem, 1.5rem);
+    padding-bottom: 0rem;
+    color: white;
+    background: unset;
+    background: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+}
+.testimonialsMalware .card .imgData h3 {
+    color: #fff 9e;
+    padding-bottom: 0.5rem;
+}
+@media only screen and (max-width: 800px) {
+    .testimonialsMalware .card .imgData {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        gap: 1rem;
+   }
+}
+.testimonialsMalware .card p {
+    color: #fff 91;
+    padding-bottom: 3rem;
+}
+@media only screen and (max-width: 700px) {
+    .testimonialsMalware .card {
+        padding-top: unset;
+   }
+}
 @media only screen and (max-width: 800px) {
     .testimonials {
         padding: 0rem 1.2rem 4rem 1.2rem;
-    }
+   }
 }
-
 .swiper-pagination-bullet-active {
-    background-color: #ffffff8a !important;
+    background-color: #fff 8a !important;
 }
