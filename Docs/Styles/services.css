@@ -167,6 +167,15 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .OurITengineerprofile{
+        padding-bottom: 0;
+        h2{
+            margin-top: 1rem;
+        }
+    }
+}
+
 .heroSectionServices {
     position: relative;
     display: flex;
@@ -215,7 +224,7 @@
 
 @media only screen and (max-width: 500px) {
     .adjustPaddingtestimonials{
-        padding: 3rem;
+        padding-top: 2.5rem !important;
     }
 }
 
