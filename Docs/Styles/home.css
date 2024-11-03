@@ -761,7 +761,7 @@ nav .fa-bars {
     -webkit-text-fill-color: transparent;
 }
 .WhyChooseUS p {
-    color: #fff 9e;
+    color: #fff;
     padding-top: 0.7rem;
     padding-bottom: 3rem;
     text-align: center;
@@ -955,7 +955,7 @@ nav .fa-bars {
     -webkit-text-fill-color: unset;
 }
 .testimonials .card .imgData h3 {
-    color: #fff 9e;
+    color: #fff;
     padding-bottom: 0.5rem;
 }
 @media only screen and (max-width: 800px) {
@@ -1028,7 +1028,7 @@ footer a {
     color: #fff;
 }
 .logoinfo p {
-    color: #fff 8f;
+    color: #fff;
     font-size: 17px;
     margin-top: 5px;
 }
