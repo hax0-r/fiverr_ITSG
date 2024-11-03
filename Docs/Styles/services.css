@@ -331,3 +331,22 @@
 .swiper-pagination-bullet-active {
     background-color: #fff 8a !important;
 }
+
+@media only screen and (max-width: 800px) {
+    .whatWeDo {
+        padding-top: 2rem;
+        .changeDirection {
+            flex-direction: column;
+            gap: 1rem;
+            .second{
+                display: flex;
+                padding: 0;
+                justify-content: center!important;
+                align-items: center;
+                img{
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

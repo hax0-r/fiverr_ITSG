@@ -1,10 +1,9 @@
-
-
 .computerSoftware {
     position: relative;
     padding-top: 4rem;
     z-index: 9;
 }
+
 .computerSoftware .content {
     max-width: 75rem;
     width: 100%;
@@ -13,6 +12,7 @@
     position: relative;
     padding-bottom: 3rem;
 }
+
 .computerSoftware h1 {
     text-align: center;
     color: white;
@@ -25,47 +25,57 @@
     position: relative;
     margin-top: 5rem;
 }
+
 @media only screen and (max-width: 800px) {
     .computerSoftware h1 {
         margin-top: 3rem;
-   }
+    }
 }
+
 .computerSoftware h2 {
     color: white;
     font-weight: 500;
     font-size: clamp(1.3rem, -0.875rem + 8.333vw, 2rem);
     margin-top: 5rem;
 }
+
 @media only screen and (max-width: 800px) {
     .computerSoftware h2 {
         margin-top: 3rem;
-   }
+    }
 }
+
 .computerSoftware p {
     color: #fff a8;
     padding-top: 0.8rem;
 }
+
 .computerSoftware h3 {
     color: white;
     font-weight: 500;
     font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
     margin-top: 2rem;
 }
+
 .computerSoftware span {
     color: white;
     font-weight: 600;
 }
+
 .computerSoftware a {
     color: #00a6ff;
 }
+
 .computerSoftware a:hover {
     text-decoration: underline;
 }
+
 .computerSoftware ul {
     color: #fff a8;
     list-style: disc;
     padding: 0.5rem 0 0.5rem 1.2rem;
 }
+
 .computerSoftware button {
     width: 100%;
     border-radius: 5rem;
@@ -80,17 +90,20 @@
     transition: 300ms all;
     border: 3px solid #5f29b7;
 }
+
 .computerSoftware button:hover {
     background-color: transparent;
     color: #5f29b7;
 }
+
 @media only screen and (max-width: 800px) {
     .computerSoftware button {
         margin-top: 1.5rem;
         font-size: 1rem;
         padding: 1rem;
-   }
+    }
 }
+
 .bg {
     position: absolute;
     top: 0;
@@ -99,6 +112,7 @@
     opacity: 30%;
     height: 100%;
 }
+
 .reparings {
     max-width: 80rem;
     width: 100%;
@@ -107,16 +121,18 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     gap: 1.5rem;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 1.2rem;
 }
+
 .reparings a {
     display: block;
 }
+
 .reparings a .card {
     max-width: 360px;
     width: 100%;
@@ -129,55 +145,61 @@
     border-radius: 2rem;
     border: 2px solid rgba(255, 255, 255, 0.245);
 }
+
 .reparings a .card:hover {
     -webkit-transform: translateY(-1rem);
-        -ms-transform: translateY(-1rem);
-            transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    transform: translateY(-1rem);
     border: 2px solid white;
 }
+
 .reparings a .card img {
     height: 120px;
 }
+
 .reparings a .card h2 {
     padding: 1.5rem 0;
     color: white;
     font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
     font-weight: 600;
 }
+
 .reparings a .card p {
     color: rgba(255, 255, 255, 0.705);
     font-size: 14px;
 }
+
 .heroSectionServices {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-   /* text-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* text-align: center;
     */
     color: var(--white-color);
     min-height: 100vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 1rem;
-   /* padding-top: 4rem;
+    /* padding-top: 4rem;
     */
 }
+
 .heroSectionServices h2 {
     font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
     padding-top: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-   /* justify-content: center;
+    /* justify-content: center;
     align-items: center;
     flex-direction: column;
     */
@@ -186,16 +208,19 @@
     font-weight: 500;
     color: #8f889a;
 }
+
 .coveredBg {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.959)), to(rgba(0, 0, 0, 0.959))), url(../Assets/Images/covered/bg.jpeg) center/cover;
     background: -o-linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/covered/bg.jpeg) center/cover;
     background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/covered/bg.jpeg) center/cover;
 }
+
 .whatWeDo {
     background-color: transparent;
-    .main{
-        .first{
-            h1{
+
+    .main {
+        .first {
+            h1 {
                 margin-top: 1rem;
                 font-size: clamp(1.4rem, -0.875rem + 8.333vw, 3rem);
 
@@ -203,10 +228,12 @@
         }
     }
 }
+
 @media only screen and (max-width: 500px) {
-    .computerSoftware{
+    .computerSoftware {
         padding-top: 0;
-        .content{
+
+        .content {
             padding-bottom: .5rem;
         }
     }
