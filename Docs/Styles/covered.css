@@ -1,92 +1,8 @@
-.heroSectionCovered {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: var(--white-color);
-    min-height: 100vh;
-    flex-direction: column;
-    padding: 1rem;
-    padding-top: 4rem;
-
-
-    h2 {
-        font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
-        padding-top: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        max-width: 75rem;
-        width: 100%;
-        font-weight: 500;
-        color: #8f889a;
-
-    }
-}
-
-
-
-.computerSoftware {
-    max-width: 75rem;
-    width: 100%;
-    margin: auto;
-    padding: 0 1.2rem;
-
-    h1 {
-        text-align: center;
-        color: white;
-        font-weight: 600;
-        font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2.5rem);
-        max-width: 60rem;
-        margin: auto;
-        width: 100%;
-        margin-top: 5rem;
-    }
-
-    h2 {
-        color: white;
-        font-weight: 500;
-        font-size: clamp(1.3rem, -0.875rem + 8.333vw, 2rem);
-        margin-top: 5rem;
-    }
-
-    p {
-        color: #ffffffa8;
-        padding-top: 1rem;
-    }
-
-    h3 {
-        color: white;
-        font-weight: 500;
-        font-size: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
-        margin-top: 2rem;
-    }
-}
-
-.whatWeDo {
-    a {
-        button {
-            background-color: transparent;
-            color: white;
-            padding: 1rem 3rem;
-            margin-top: 1rem;
-            border-radius: .7rem;
-            border: 2px solid white;
-            transition: 300ms all;
-
-            &:hover {
-                background-color: white;
-                color: black;
-            }
-        }
-    }
-}
 
 .CoveredAreass {
-
+    
     h2 {
+        padding: 1rem;
         text-align: center;
         color: white;
         font-weight: 600;
@@ -219,4 +135,38 @@
         }
     }
 
+}
+
+
+
+.heroSectionServices {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    color: var(--white-color);
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 1rem;
+    /* padding-top: 4rem; */
+
+    h2 {
+        font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
+        padding-top: 1rem;
+        display: flex;
+        /* justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        max-width: 75rem;
+        width: 100%;
+        font-weight: 500;
+        color: #8f889a;
+
+    }
+}
+
+
+.coveredBg {
+    background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/covered/coveredBg.jpeg) center/cover;
 }
