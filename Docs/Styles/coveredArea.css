@@ -1,6 +1,7 @@
 .computerSoftware {
 
     position: relative;
+    padding-top: 4rem;
     z-index: 9;
 
     .content {
