@@ -55,7 +55,7 @@
     font-weight: 500;
 }
 .whatWeDo .main .second .borderSettig {
-    border-radius: 0.4rem;
+    /* border-radius: 0.4rem; */
 }
 @media only screen and (max-width: 500px) {
     .whatWeDo .main .second .borderSettig {
