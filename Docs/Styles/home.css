@@ -666,7 +666,7 @@ nav .fa-bars {
     -o-transition: 300ms all;
     transition: 300ms all;
     border: 2px solid black;
-    /* border-radius: 2rem; */
+    border-radius: 2rem;
     border: 2px solid rgba(255, 255, 255, 0.245);
 }
 @media only screen and (max-width: 800px) {
