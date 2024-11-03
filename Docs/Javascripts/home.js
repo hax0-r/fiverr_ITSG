@@ -58,7 +58,7 @@ var swiper3 = new Swiper(".mySwiper3", {
   },
   loop: true,
   autoplay: {
-    delay: 2500,
+    delay: 7000,
   },
   breakpoints: {
     640: {

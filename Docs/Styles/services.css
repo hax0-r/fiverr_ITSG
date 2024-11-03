@@ -46,7 +46,19 @@
 }
 
 .whatWeDo {
+    background-color: transparent;
+
+    .main {
+        .second {
+
+            img {
+                border-radius: .4rem;
+            }
+        }
+    }
+
     a {
+
         button {
             background-color: transparent;
             color: white;
@@ -109,8 +121,8 @@
             border: 2px solid rgba(255, 255, 255, 0.318);
             border-radius: .8rem;
             transition: 300ms all;
-            
-            &:hover{
+
+            &:hover {
                 border: 2px solid white;
                 transform: translateY(-1rem);
             }
@@ -124,25 +136,25 @@
     }
 }
 
-.heroSectionServices{
+.heroSectionServices {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     color: var(--white-color);
     min-height: 100vh;
     flex-direction: column;
     padding: 1rem;
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
 
     h2 {
         font-size: clamp(1.1rem, -0.875rem + 8.333vw, 1.5rem);
         padding-top: 1rem;
         display: flex;
-        justify-content: center;
+        /* justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column; */
         max-width: 75rem;
         width: 100%;
         font-weight: 500;
@@ -153,13 +165,15 @@
 
 
 .malwarebg {
-    background: linear-gradient(rgba(0, 0, 0, 0.959),rgba(0, 0, 0, 0.959)),url(../Assets/Images/home/malwarebg.jpeg) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/malwarebg.jpeg) center/cover;
 }
+
 .msBg {
-    background: linear-gradient(rgba(0, 0, 0, 0.959),rgba(0, 0, 0, 0.959)),url(../Assets/Images/home/msbg.jpeg) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/msbg.jpeg) center;
 }
+
 .bgIt {
-    background: linear-gradient(rgba(0, 0, 0, 0.959),rgba(0, 0, 0, 0.959)),url(../Assets/Images/home/bgIt.jpeg) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.959)), url(../Assets/Images/home/bgIt.jpeg) center;
 }
 
 /* testimonialsMalware */
